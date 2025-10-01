@@ -1,0 +1,128 @@
+# 🚀 Portfolio Deployment Guide
+
+## GitHub Pages Deployment Steps
+
+### 1. Create GitHub Repository
+
+1. **Go to GitHub.com** and sign in to your account
+2. **Click "New Repository"** (green button)
+3. **Repository Settings:**
+   - Repository name: `portfolio-project`
+   - Description: `My professional portfolio website`
+   - Set to **Public** (required for free GitHub Pages)
+   - ✅ Add a README file
+   - ✅ Add .gitignore (choose Node template)
+   - Click **"Create repository"**
+
+### 2. Upload Your Portfolio Code
+
+**Option A: Using GitHub Desktop (Recommended for beginners)**
+1. Download and install GitHub Desktop
+2. Clone your new repository to your computer
+3. Copy all your portfolio files into the cloned folder
+4. Commit and push the changes
+
+**Option B: Using Command Line**
+```bash
+# Navigate to your portfolio folder
+cd /Users/santhanakrishnan01/Desktop/portfolio-project
+
+# Initialize git (if not already done)
+git init
+
+# Add your GitHub repository as remote
+git remote add origin https://github.com/YOUR_USERNAME/portfolio-project.git
+
+# Add all files
+git add .
+
+# Commit files
+git commit -m "Initial portfolio commit"
+
+# Push to GitHub
+git push -u origin main
+```
+
+### 3. Enable GitHub Pages
+
+1. **Go to your repository** on GitHub.com
+2. **Click "Settings"** tab
+3. **Scroll down to "Pages"** in the left sidebar
+4. **Source:** Select "GitHub Actions"
+5. **The workflow will automatically deploy** when you push code
+
+### 4. Access Your Live Portfolio
+
+After deployment (takes 2-5 minutes), your portfolio will be available at:
+```
+https://YOUR_USERNAME.github.io/portfolio-project/
+```
+
+## 🔧 Local Testing Before Deployment
+
+Test the production build locally:
+
+```bash
+# Build for production
+npm run build
+
+# The build output will be in the 'out' folder
+# You can serve it locally to test:
+npx serve out
+```
+
+## 🎯 Post-Deployment Checklist
+
+- [ ] All pages load correctly
+- [ ] Images display properly
+- [ ] Navigation works
+- [ ] Contact form functions
+- [ ] Mobile responsiveness
+- [ ] All links work
+
+## 🔄 Making Updates
+
+After initial deployment, simply:
+1. Make changes to your code
+2. Commit and push to GitHub
+3. GitHub Actions will automatically rebuild and deploy
+
+## 🌐 Custom Domain (Optional)
+
+To use a custom domain like `yourname.com`:
+
+1. **Purchase a domain** from a registrar
+2. **Add CNAME file** to your repository root:
+   ```
+   yourname.com
+   ```
+3. **Configure DNS** at your domain registrar:
+   - Add CNAME record pointing to `YOUR_USERNAME.github.io`
+4. **Enable custom domain** in GitHub Pages settings
+
+## 📊 Analytics Setup (Next Step)
+
+After deployment, you can add Google Analytics:
+1. Create Google Analytics account
+2. Get tracking ID
+3. Add tracking code to your portfolio
+4. Monitor visitor statistics
+
+## 🆘 Troubleshooting
+
+**Common Issues:**
+- **404 errors:** Check basePath in next.config.js
+- **Images not loading:** Ensure images are in public folder
+- **Build fails:** Check for syntax errors in code
+- **Deployment stuck:** Check GitHub Actions tab for errors
+
+**Need Help?**
+- Check GitHub Actions logs for detailed error messages
+- Ensure all file paths are correct
+- Verify Next.js configuration
+
+---
+
+## 🎉 Ready to Deploy!
+
+Your portfolio is configured and ready for GitHub Pages deployment. Follow the steps above to get your portfolio live on the web!

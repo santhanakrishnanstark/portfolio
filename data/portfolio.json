@@ -1,0 +1,534 @@
+{
+  "personal": {
+    "name": "Your Name",
+    "title": "Frontend Developer",
+    "email": "your.email@example.com",
+    "phone": "+1 (555) 123-4567",
+    "location": "Your City, Country",
+    "bio": "Passionate frontend developer with expertise in React, Next.js, and modern web technologies. I love creating beautiful, responsive, and user-friendly web applications.",
+    "avatar": "/images/projects/SandyPic.JPG",
+    "resume": "/resume.pdf",
+    "social": {
+      "github": "https://github.com/yourusername",
+      "linkedin": "https://linkedin.com/in/yourusername",
+      "twitter": "https://twitter.com/yourusername",
+      "website": "https://yourwebsite.com"
+    }
+  },
+  "projects": [
+    {
+      "id": "ecommerce-platform",
+      "title": "E-commerce Platform",
+      "description": "A full-featured e-commerce platform built with React and Node.js, featuring user authentication, payment processing, and admin dashboard.",
+      "longDescription": "This comprehensive e-commerce solution includes features like product catalog, shopping cart, user authentication, payment integration with Stripe, order management, and an admin dashboard for inventory management.",
+      "technologies": ["React", "Node.js", "MongoDB", "Express", "Stripe", "JWT"],
+      "githubUrl": "https://github.com/yourusername/ecommerce-platform",
+      "liveUrl": "https://ecommerce-demo.vercel.app",
+      "image": "/images/projects/ecommerce.jpg",
+      "featured": true,
+      "status": "completed",
+      "date": "2024-03-15",
+      "category": "Full Stack"
+    },
+    {
+      "id": "task-management-app",
+      "title": "Task Management App",
+      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
+      "longDescription": "Built with React and Firebase, this app allows teams to create projects, assign tasks, track progress, and collaborate in real-time. Features include drag-and-drop task boards, file attachments, comments, and notifications.",
+      "technologies": ["React", "Firebase", "Material-UI", "React DnD"],
+      "githubUrl": "https://github.com/yourusername/task-manager",
+      "liveUrl": "https://task-manager-demo.vercel.app",
+      "image": "/images/projects/task-manager.jpg",
+      "featured": true,
+      "status": "completed",
+      "date": "2024-01-20",
+      "category": "Frontend"
+    },
+    {
+      "id": "weather-dashboard",
+      "title": "Weather Dashboard",
+      "description": "A responsive weather dashboard that displays current weather conditions and forecasts for multiple cities with beautiful visualizations.",
+      "longDescription": "This weather application uses the OpenWeatherMap API to fetch real-time weather data and displays it with interactive charts and maps. Features include location-based weather, 7-day forecasts, and weather alerts.",
+      "technologies": ["React", "Chart.js", "OpenWeatherMap API", "Tailwind CSS"],
+      "githubUrl": "https://github.com/yourusername/weather-dashboard",
+      "liveUrl": "https://weather-dashboard-demo.vercel.app",
+      "image": "/images/projects/weather.jpg",
+      "featured": false,
+      "status": "completed",
+      "date": "2023-11-10",
+      "category": "Frontend"
+    }
+  ],
+  "experience": [
+    {
+      "id": "frontend-developer-techcorp",
+      "company": "TechCorp Solutions",
+      "position": "Frontend Developer",
+      "location": "Remote",
+      "startDate": "2023-01-01",
+      "endDate": null,
+      "current": true,
+      "description": "Developing and maintaining responsive web applications using React, Next.js, and TypeScript. Collaborating with design and backend teams to deliver high-quality user experiences.",
+      "achievements": [
+        "Improved application performance by 40% through code optimization and lazy loading",
+        "Led the migration from JavaScript to TypeScript across 5 major projects",
+        "Implemented automated testing suite reducing bugs by 60%",
+        "Mentored 3 junior developers and conducted code reviews"
+      ],
+      "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Jest"]
+    },
+    {
+      "id": "junior-developer-webstudio",
+      "company": "WebStudio Agency",
+      "position": "Junior Frontend Developer",
+      "location": "New York, NY",
+      "startDate": "2022-06-01",
+      "endDate": "2022-12-31",
+      "current": false,
+      "description": "Worked on client projects building responsive websites and web applications. Gained experience in modern frontend technologies and agile development practices.",
+      "achievements": [
+        "Successfully delivered 8 client projects on time and within budget",
+        "Improved website loading speeds by 25% through image optimization",
+        "Collaborated with designers to implement pixel-perfect UI components",
+        "Participated in daily standups and sprint planning meetings"
+      ],
+      "technologies": ["HTML5", "CSS3", "JavaScript", "React", "SASS", "Git"]
+    },
+    {
+      "id": "intern-developer-startup",
+      "company": "StartupXYZ",
+      "position": "Frontend Development Intern",
+      "location": "San Francisco, CA",
+      "startDate": "2022-01-01",
+      "endDate": "2022-05-31",
+      "current": false,
+      "description": "Assisted in developing the company's main product interface. Learned modern development practices and contributed to feature development under senior developer guidance.",
+      "achievements": [
+        "Built 5 reusable React components used across the application",
+        "Fixed 20+ UI bugs and improved user experience",
+        "Participated in user testing sessions and implemented feedback",
+        "Learned Git workflow and collaborative development practices"
+      ],
+      "technologies": ["React", "JavaScript", "CSS3", "Git", "Figma"]
+    }
+  ],
+  "education": [
+    {
+      "id": "computer-science-degree",
+      "institution": "University of Technology",
+      "degree": "Bachelor of Science",
+      "field": "Computer Science",
+      "location": "Your City, Country",
+      "startDate": "2018-09-01",
+      "endDate": "2022-06-01",
+      "gpa": "3.8/4.0",
+      "honors": ["Magna Cum Laude", "Dean's List"],
+      "relevantCourses": ["Data Structures", "Algorithms", "Web Development", "Database Systems", "Software Engineering"],
+      "description": "Comprehensive computer science education with focus on software development and modern web technologies.",
+      "logo": "/images/education/university.png",
+      "website": "https://university.edu"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "manager-testimonial",
+      "name": "Sarah Johnson",
+      "position": "Engineering Manager",
+      "company": "TechCorp Solutions",
+      "content": "An exceptional developer with outstanding problem-solving skills and attention to detail. Consistently delivers high-quality code and mentors junior team members effectively.",
+      "rating": 5,
+      "date": "2024-08-15",
+      "avatar": "/images/testimonials/sarah-johnson.jpg",
+      "linkedin": "https://linkedin.com/in/sarahjohnson",
+      "featured": true,
+      "relationship": "Manager"
+    },
+    {
+      "id": "client-testimonial",
+      "name": "Michael Chen",
+      "position": "Product Owner",
+      "company": "StartupXYZ",
+      "content": "Working with this developer was a game-changer for our project. They transformed our ideas into a beautiful, functional application that exceeded our expectations.",
+      "rating": 5,
+      "date": "2024-06-20",
+      "avatar": "/images/testimonials/michael-chen.jpg",
+      "linkedin": "https://linkedin.com/in/michaelchen",
+      "featured": true,
+      "relationship": "Client"
+    },
+    {
+      "id": "colleague-testimonial",
+      "name": "Emily Rodriguez",
+      "position": "Senior Frontend Developer",
+      "company": "WebStudio Agency",
+      "content": "A collaborative team player with excellent technical skills. Always willing to help others and share knowledge. Their code reviews are thorough and constructive.",
+      "rating": 5,
+      "date": "2024-04-10",
+      "avatar": "/images/testimonials/emily-rodriguez.jpg",
+      "linkedin": "https://linkedin.com/in/emilyrodriguez",
+      "featured": false,
+      "relationship": "Colleague"
+    }
+  ],
+  "languages": {
+    "spoken": [
+      {
+        "name": "English",
+        "proficiency": "Native",
+        "level": "C2",
+        "flag": "/images/flags/us.png"
+      },
+      {
+        "name": "Spanish",
+        "proficiency": "Conversational",
+        "level": "B2",
+        "flag": "/images/flags/es.png"
+      },
+      {
+        "name": "French",
+        "proficiency": "Basic",
+        "level": "A2",
+        "flag": "/images/flags/fr.png"
+      }
+    ]
+  },
+  "stats": {
+    "yearsOfExperience": 3,
+    "projectsCompleted": 15,
+    "clientsSatisfied": 8,
+    "cupsOfCoffee": 500,
+    "linesOfCode": 25000,
+    "githubContributions": 800,
+    "certifications": 3,
+    "coursesCompleted": 12
+  },
+  "skills": {
+    "frontend": [
+      {
+        "name": "React",
+        "years": 3,
+        "iconType": "devicon",
+        "icon": "devicon-react-original",
+        "color": "#61DAFB"
+      },
+      {
+        "name": "Next.js",
+        "years": 2,
+        "iconType": "devicon",
+        "icon": "devicon-nextjs-original",
+        "color": "#000000"
+      },
+      {
+        "name": "TypeScript",
+        "years": 2,
+        "iconType": "devicon",
+        "icon": "devicon-typescript-original",
+        "color": "#3178C6"
+      },
+      {
+        "name": "JavaScript",
+        "years": 4,
+        "iconType": "devicon",
+        "icon": "devicon-javascript-plain colored",
+        "color": "#F7DF1E"
+      },
+      {
+        "name": "HTML5",
+        "years": 5,
+        "iconType": "devicon",
+        "icon": "devicon-html5-plain colored",
+        "color": "#E34F26"
+      },
+      {
+        "name": "CSS3",
+        "years": 5,
+        "iconType": "devicon",
+        "icon": "devicon-css3-original",
+        "color": "#1572B6"
+      },
+      {
+        "name": "Tailwind CSS",
+        "years": 2,
+        "iconType": "devicon",
+        "icon": "devicon-tailwindcss-original",
+        "color": "#06B6D4"
+      },
+      {
+        "name": "SASS/SCSS",
+        "years": 3,
+        "iconType": "devicon",
+        "icon": "devicon-sass-original",
+        "color": "#CC6699"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js",
+        "years": 2,
+        "iconType": "devicon",
+        "icon": "devicon-nodejs-original",
+        "color": "#339933"
+      },
+      {
+        "name": "Express.js",
+        "years": 2,
+        "iconType": "devicon",
+        "icon": "devicon-express-original",
+        "color": "#000000"
+      },
+      {
+        "name": "MongoDB",
+        "years": 1,
+        "iconType": "devicon",
+        "icon": "devicon-mongodb-original",
+        "color": "#47A248"
+      },
+      {
+        "name": "Firebase",
+        "years": 2,
+        "iconType": "devicon",
+        "icon": "devicon-firebase-original",
+        "color": "#FFCA28"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Git",
+        "years": 4,
+        "iconType": "devicon",
+        "icon": "devicon-git-original",
+        "color": "#F05032"
+      },
+      {
+        "name": "VS Code",
+        "years": 5,
+        "iconType": "devicon",
+        "icon": "devicon-vscode-original",
+        "color": "#007ACC"
+      },
+      {
+        "name": "Figma",
+        "years": 3,
+        "iconType": "devicon",
+        "icon": "devicon-figma-original",
+        "color": "#F24E1E"
+      },
+      {
+        "name": "Docker",
+        "years": 1,
+        "iconType": "devicon",
+        "icon": "devicon-docker-original",
+        "color": "#2496ED"
+      },
+      {
+        "name": "Custom Tool",
+        "years": 2,
+        "iconType": "svg",
+        "icon": "/icons/skills/custom-tool.svg",
+        "color": "#8DD6F9"
+      }
+    ]
+  },
+  "blog": [
+    {
+      "id": "react-performance-tips",
+      "title": "10 React Performance Optimization Tips",
+      "excerpt": "Learn how to optimize your React applications for better performance and user experience.",
+      "date": "2024-09-15",
+      "readTime": "8 min read",
+      "tags": ["React", "Performance", "Optimization"],
+      "externalUrl": "https://medium.com/@yourusername/react-performance-tips",
+      "featured": true
+    },
+    {
+      "id": "nextjs-deployment-guide",
+      "title": "Complete Guide to Next.js Deployment",
+      "excerpt": "Step-by-step guide to deploying Next.js applications to various platforms including Vercel, Netlify, and AWS.",
+      "date": "2024-08-22",
+      "readTime": "12 min read",
+      "tags": ["Next.js", "Deployment", "DevOps"],
+      "externalUrl": "https://dev.to/yourusername/nextjs-deployment-guide",
+      "featured": true
+    },
+    {
+      "id": "css-grid-flexbox",
+      "title": "CSS Grid vs Flexbox: When to Use What",
+      "excerpt": "Understanding the differences between CSS Grid and Flexbox and when to use each layout method.",
+      "date": "2024-07-10",
+      "readTime": "6 min read",
+      "tags": ["CSS", "Layout", "Grid", "Flexbox"],
+      "externalUrl": "https://css-tricks.com/yourusername/grid-vs-flexbox",
+      "featured": false
+    }
+  ],
+  "courses": [
+    {
+      "id": "react-complete-guide",
+      "title": "React - The Complete Guide",
+      "provider": "Udemy",
+      "instructor": "Maximilian Schwarzmüller",
+      "completionDate": "2023-08-15",
+      "duration": "48 hours",
+      "certificateUrl": "https://udemy.com/certificate/UC-example123",
+      "skills": ["React", "Redux", "React Router", "Hooks"],
+      "description": "Comprehensive course covering React fundamentals, advanced patterns, state management, and modern React development practices.",
+      "featured": true,
+      "category": "Frontend Development"
+    },
+    {
+      "id": "nextjs-masterclass",
+      "title": "Next.js & React - The Complete Guide",
+      "provider": "Udemy",
+      "instructor": "Maximilian Schwarzmüller",
+      "completionDate": "2023-11-20",
+      "duration": "32 hours",
+      "certificateUrl": "https://udemy.com/certificate/UC-example456",
+      "skills": ["Next.js", "SSR", "SSG", "API Routes"],
+      "description": "Master Next.js framework including server-side rendering, static site generation, and full-stack development.",
+      "featured": true,
+      "category": "Full Stack Development"
+    },
+    {
+      "id": "typescript-bootcamp",
+      "title": "TypeScript Bootcamp",
+      "provider": "Coursera",
+      "instructor": "Google",
+      "completionDate": "2023-05-10",
+      "duration": "24 hours",
+      "certificateUrl": "https://coursera.org/certificate/example789",
+      "skills": ["TypeScript", "Type Safety", "Interfaces", "Generics"],
+      "description": "Learn TypeScript from basics to advanced concepts including type safety, interfaces, and integration with React.",
+      "featured": false,
+      "category": "Programming Languages"
+    }
+  ],
+  "certifications": [
+    {
+      "id": "aws-cloud-practitioner",
+      "title": "AWS Certified Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "issueDate": "2024-02-15",
+      "expiryDate": "2027-02-15",
+      "credentialId": "AWS-CCP-123456789",
+      "credentialUrl": "https://aws.amazon.com/verification/example",
+      "skills": ["AWS", "Cloud Computing", "EC2", "S3", "Lambda"],
+      "description": "Foundational certification demonstrating understanding of AWS cloud services and basic architectural principles.",
+      "featured": true,
+      "category": "Cloud Computing"
+    },
+    {
+      "id": "google-analytics-certified",
+      "title": "Google Analytics Certified",
+      "issuer": "Google",
+      "issueDate": "2023-12-01",
+      "expiryDate": "2024-12-01",
+      "credentialId": "GA-CERT-987654321",
+      "credentialUrl": "https://skillshop.exceedlms.com/student/award/example",
+      "skills": ["Google Analytics", "Web Analytics", "Data Analysis", "Reporting"],
+      "description": "Certification in Google Analytics demonstrating proficiency in web analytics and data-driven decision making.",
+      "featured": true,
+      "category": "Analytics"
+    },
+    {
+      "id": "responsive-web-design",
+      "title": "Responsive Web Design Certification",
+      "issuer": "freeCodeCamp",
+      "issueDate": "2022-09-30",
+      "expiryDate": null,
+      "credentialId": "FCC-RWD-456789123",
+      "credentialUrl": "https://freecodecamp.org/certification/example/responsive-web-design",
+      "skills": ["HTML5", "CSS3", "Responsive Design", "Accessibility"],
+      "description": "Comprehensive certification covering HTML, CSS, responsive design principles, and web accessibility standards.",
+      "featured": false,
+      "category": "Web Development"
+    }
+  ],
+  "achievements": [
+    {
+      "id": "hackathon-winner-2024",
+      "title": "First Place - TechCorp Hackathon 2024",
+      "organization": "TechCorp Solutions",
+      "date": "2024-06-15",
+      "description": "Won first place in company-wide hackathon with an innovative AI-powered task management solution built in 48 hours.",
+      "category": "Competition",
+      "skills": ["React", "AI/ML", "Node.js", "Team Leadership"],
+      "recognition": "Company-wide recognition and $5,000 prize",
+      "featured": true
+    },
+    {
+      "id": "open-source-contributor",
+      "title": "Top Contributor - React Documentation",
+      "organization": "React Team",
+      "date": "2023-12-01",
+      "description": "Recognized as a top contributor to React documentation with 50+ merged pull requests improving developer experience.",
+      "category": "Open Source",
+      "skills": ["React", "Technical Writing", "Documentation", "Community"],
+      "recognition": "Featured in React newsletter and community spotlight",
+      "featured": true
+    },
+    {
+      "id": "performance-optimization",
+      "title": "Performance Champion Award",
+      "organization": "TechCorp Solutions",
+      "date": "2024-03-20",
+      "description": "Achieved 40% performance improvement across multiple applications through code optimization and best practices implementation.",
+      "category": "Professional",
+      "skills": ["Performance Optimization", "Code Review", "Mentoring"],
+      "recognition": "Quarterly performance bonus and team recognition",
+      "featured": false
+    },
+    {
+      "id": "conference-speaker",
+      "title": "Speaker - React Conference 2024",
+      "organization": "React Conference",
+      "date": "2024-05-10",
+      "description": "Delivered a talk on 'Modern React Patterns and Performance Optimization' to an audience of 500+ developers.",
+      "category": "Speaking",
+      "skills": ["Public Speaking", "React", "Performance", "Knowledge Sharing"],
+      "recognition": "Positive feedback from 95% of attendees",
+      "featured": true
+    }
+  ],
+  "preferences": {
+    "theme": "light",
+    "showStats": true,
+    "showTestimonials": true,
+    "showEducation": true,
+    "showCourses": true,
+    "showCertifications": true,
+    "showAchievements": true,
+    "showLanguages": true,
+    "showVolunteer": false,
+    "showSpeaking": false,
+    "showPublications": false,
+    "sectionsOrder": [
+      "hero",
+      "about",
+      "stats",
+      "experience",
+      "projects",
+      "skills",
+      "education",
+      "certifications",
+      "courses",
+      "achievements",
+      "testimonials",
+      "blog",
+      "contact"
+    ],
+    "projectsPerPage": 6,
+    "blogPostsPerPage": 6,
+    "showProjectFilters": true,
+    "showBlogSearch": true,
+    "enableAnimations": true,
+    "showSocialLinks": true,
+    "showDownloadResume": true,
+    "contactFormEnabled": true,
+    "showSkillYears": true,
+    "showCompanyLogos": true,
+    "showProjectTechnologies": true,
+    "showCertificationExpiry": true,
+    "showTestimonialRatings": true,
+    "featuredContentOnly": false
+  }
+}
