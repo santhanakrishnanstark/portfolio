@@ -43,13 +43,28 @@ git commit -m "Initial portfolio commit"
 git push -u origin main
 ```
 
-### 3. Enable GitHub Pages
+### 3. Enable GitHub Pages & Permissions
 
 1. **Go to your repository** on GitHub.com
 2. **Click "Settings"** tab
-3. **Scroll down to "Pages"** in the left sidebar
-4. **Source:** Select "GitHub Actions"
-5. **The workflow will automatically deploy** when you push code
+3. **Enable GitHub Actions permissions:**
+   - Go to "Actions" → "General" in left sidebar
+   - Under "Workflow permissions" select **"Read and write permissions"**
+   - ✅ Check "Allow GitHub Actions to create and approve pull requests"
+   - Click **"Save"**
+4. **Set up GitHub Pages:**
+   - Go to "Pages" in left sidebar
+   - **Source:** Select **"GitHub Actions"**
+5. **Push your code** - The workflow will automatically deploy
+
+### 4. Fix Permission Issues (If Needed)
+
+If you get a 403 permission error:
+
+1. **Repository Settings** → **Actions** → **General**
+2. **Workflow permissions:** Select **"Read and write permissions"**
+3. **Save** and re-run the failed workflow
+4. **Alternative:** Go to **Settings** → **Pages** → Select **"GitHub Actions"** as source
 
 ### 4. Access Your Live Portfolio
 
