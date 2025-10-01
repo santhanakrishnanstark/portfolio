@@ -4,6 +4,45 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
 
+/* Performance optimizations */
+* {
+  box-sizing: border-box;
+}
+
+/* Reduce layout shifts */
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+/* Optimize animations for performance */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* GPU acceleration for animations */
+.animate-fade-in,
+.animate-slide-up,
+.animate-blob {
+  will-change: transform, opacity;
+  transform: translateZ(0);
+}
+
+/* Optimize hover effects */
+.card,
+.btn-primary,
+.btn-secondary,
+.btn-outline {
+  will-change: transform;
+  backface-visibility: hidden;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;

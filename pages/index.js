@@ -21,7 +21,6 @@ export default function Home() {
   const socialLinks = [
     { name: 'GitHub', href: personal.social.github, icon: FaGithub },
     { name: 'LinkedIn', href: personal.social.linkedin, icon: FaLinkedin },
-    { name: 'Twitter', href: personal.social.twitter, icon: FaTwitter },
     { name: 'Email', href: `mailto:${personal.email}`, icon: FaEnvelope },
   ]
 
@@ -91,7 +90,7 @@ export default function Home() {
                 <div className="relative w-full h-full overflow-hidden border-4 border-white shadow-2xl" style={{ borderRadius: '110% 100% 30% 100%' }}>
                   {personal.avatar ? (
                     <Image
-                      src={personal.avatar}
+                      src={personal.avatar2}
                       alt={personal.name}
                       width={320}
                       height={320}
