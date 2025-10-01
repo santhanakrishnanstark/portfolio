@@ -1,12 +1,18 @@
 /** @type {import('next').NextConfig} */
+const isProd = process.env.NODE_ENV === 'production'
 const nextConfig = {
   output: 'export',
   trailingSlash: true,
   images: {
-    unoptimized: true
+    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './imageLoader.js'
   },
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/portfolio-project' : '',
-  basePath: process.env.NODE_ENV === 'production' ? '/portfolio-project' : '',
+  assetPrefix: isProd ? '/portfolio' : '',
+  basePath: isProd ? '/portfolio' : '',
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? '/portfolio' : '',
+  }
 }
 
 module.exports = nextConfig

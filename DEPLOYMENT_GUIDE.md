@@ -7,12 +7,21 @@
 1. **Go to GitHub.com** and sign in to your account
 2. **Click "New Repository"** (green button)
 3. **Repository Settings:**
-   - Repository name: `portfolio-project`
+   - Repository name: `portfolio` (for cleaner URL)
    - Description: `My professional portfolio website`
    - Set to **Public** (required for free GitHub Pages)
    - ✅ Add a README file
    - ✅ Add .gitignore (choose Node template)
    - Click **"Create repository"**
+
+### 1b. Rename Existing Repository (If Already Created)
+
+If you already created `portfolio-project`, rename it:
+1. **Go to your repository** on GitHub
+2. **Settings** tab
+3. **Scroll down to "Repository name"**
+4. **Change from** `portfolio-project` **to** `portfolio`
+5. **Click "Rename"**
 
 ### 2. Upload Your Portfolio Code
 
@@ -66,12 +75,14 @@ If you get a 403 permission error:
 3. **Save** and re-run the failed workflow
 4. **Alternative:** Go to **Settings** → **Pages** → Select **"GitHub Actions"** as source
 
-### 4. Access Your Live Portfolio
+### 5. Access Your Live Portfolio
 
 After deployment (takes 2-5 minutes), your portfolio will be available at:
 ```
-https://YOUR_USERNAME.github.io/portfolio-project/
+https://YOUR_USERNAME.github.io/portfolio/
 ```
+
+**Example:** `https://santhanakrishnanstark.github.io/portfolio/`
 
 ## 🔧 Local Testing Before Deployment
 
