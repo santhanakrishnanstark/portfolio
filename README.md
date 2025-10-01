@@ -34,7 +34,7 @@ A modern, responsive portfolio website built with Next.js, featuring a comprehen
 
 ## 🚀 Live Demo
 
-Visit the live portfolio: `https://YOUR_USERNAME.github.io/portfolio-project/`
+Visit the live portfolio: `https://santhanakrishnanstark.github.io/portfolio-project/`
 
 ## 🛠 Tech Stack
 
@@ -197,8 +197,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Contact
 
 - **Email:** your.email@example.com
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/yourusername)
-- **GitHub:** [Your GitHub](https://github.com/yourusername)
+- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/santhanakrishnanstark)
+- **GitHub:** [Your GitHub](https://github.com/santhanakrishnanstark)
 
 ---
 
