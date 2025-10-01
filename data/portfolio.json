@@ -6,7 +6,7 @@
     "phone": "+1 (555) 123-4567",
     "location": "Your City, Country",
     "bio": "Passionate frontend developer with expertise in React, Next.js, and modern web technologies. I love creating beautiful, responsive, and user-friendly web applications.",
-    "avatar": "/images/projects/SandyPic.JPG",
+    "avatar": "/portfolio/images/projects/SandyPic.JPG",
     "resume": "/resume.pdf",
     "social": {
       "github": "https://github.com/yourusername",
@@ -24,7 +24,7 @@
       "technologies": ["React", "Node.js", "MongoDB", "Express", "Stripe", "JWT"],
       "githubUrl": "https://github.com/yourusername/ecommerce-platform",
       "liveUrl": "https://ecommerce-demo.vercel.app",
-      "image": "/images/projects/ecommerce.jpg",
+      "image": "/portfolio/images/projects/ecommerce.jpg",
       "featured": true,
       "status": "completed",
       "date": "2024-03-15",
@@ -38,7 +38,7 @@
       "technologies": ["React", "Firebase", "Material-UI", "React DnD"],
       "githubUrl": "https://github.com/yourusername/task-manager",
       "liveUrl": "https://task-manager-demo.vercel.app",
-      "image": "/images/projects/task-manager.jpg",
+      "image": "/portfolio/images/projects/task-manager.jpg",
       "featured": true,
       "status": "completed",
       "date": "2024-01-20",
@@ -52,7 +52,7 @@
       "technologies": ["React", "Chart.js", "OpenWeatherMap API", "Tailwind CSS"],
       "githubUrl": "https://github.com/yourusername/weather-dashboard",
       "liveUrl": "https://weather-dashboard-demo.vercel.app",
-      "image": "/images/projects/weather.jpg",
+      "image": "/portfolio/images/projects/weather.jpg",
       "featured": false,
       "status": "completed",
       "date": "2023-11-10",
@@ -125,7 +125,7 @@
       "honors": ["Magna Cum Laude", "Dean's List"],
       "relevantCourses": ["Data Structures", "Algorithms", "Web Development", "Database Systems", "Software Engineering"],
       "description": "Comprehensive computer science education with focus on software development and modern web technologies.",
-      "logo": "/images/education/university.png",
+      "logo": "portfolio/images/education/university.png",
       "website": "https://university.edu"
     }
   ],
@@ -138,7 +138,7 @@
       "content": "An exceptional developer with outstanding problem-solving skills and attention to detail. Consistently delivers high-quality code and mentors junior team members effectively.",
       "rating": 5,
       "date": "2024-08-15",
-      "avatar": "/images/testimonials/sarah-johnson.jpg",
+      "avatar": "portfolio/images/testimonials/sarah-johnson.jpg",
       "linkedin": "https://linkedin.com/in/sarahjohnson",
       "featured": true,
       "relationship": "Manager"
@@ -151,7 +151,7 @@
       "content": "Working with this developer was a game-changer for our project. They transformed our ideas into a beautiful, functional application that exceeded our expectations.",
       "rating": 5,
       "date": "2024-06-20",
-      "avatar": "/images/testimonials/michael-chen.jpg",
+      "avatar": "portfolio/images/testimonials/michael-chen.jpg",
       "linkedin": "https://linkedin.com/in/michaelchen",
       "featured": true,
       "relationship": "Client"
@@ -164,7 +164,7 @@
       "content": "A collaborative team player with excellent technical skills. Always willing to help others and share knowledge. Their code reviews are thorough and constructive.",
       "rating": 5,
       "date": "2024-04-10",
-      "avatar": "/images/testimonials/emily-rodriguez.jpg",
+      "avatar": "portfolio/images/testimonials/emily-rodriguez.jpg",
       "linkedin": "https://linkedin.com/in/emilyrodriguez",
       "featured": false,
       "relationship": "Colleague"
@@ -176,19 +176,19 @@
         "name": "English",
         "proficiency": "Native",
         "level": "C2",
-        "flag": "/images/flags/us.png"
+        "flag": "portfolio/images/flags/us.png"
       },
       {
         "name": "Spanish",
         "proficiency": "Conversational",
         "level": "B2",
-        "flag": "/images/flags/es.png"
+        "flag": "portfolio/images/flags/es.png"
       },
       {
         "name": "French",
         "proficiency": "Basic",
         "level": "A2",
-        "flag": "/images/flags/fr.png"
+        "flag": "portfolio/images/flags/fr.png"
       }
     ]
   },
