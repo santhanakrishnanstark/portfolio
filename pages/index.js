@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import Layout from '../components/Layout'
+import GitHubStats from '../components/GitHubStats'
+import GitHubRepos from '../components/GitHubRepos'
 import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope, FaExternalLinkAlt, FaCode } from 'react-icons/fa'
 import { HiArrowRight, HiDownload } from 'react-icons/hi'
 import portfolioData from '../data/portfolio.json'
@@ -316,6 +318,51 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* GitHub Activity Section */}
+      <section className="section-padding bg-white">
+        <div className="container-max">
+          <div className="text-center space-y-4 mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              GitHub Activity
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Live statistics and activity from my GitHub profile
+            </p>
+          </div>
+
+          <GitHubStats />
+        </div>
+      </section>
+
+      {/* Featured Repositories Section */}
+      <section className="section-padding bg-gray-50">
+        <div className="container-max">
+          <div className="text-center space-y-4 mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+              Featured Repositories
+            </h2>
+            <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+              Some of my most popular and recent projects on GitHub
+            </p>
+          </div>
+
+          <GitHubRepos />
+
+          <div className="text-center mt-16">
+            <a
+              href="https://github.com/santhanakrishnanstark"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-outline"
+            >
+              <FaGithub className="mr-2 h-4 w-4" />
+              View All Repositories
+              <HiArrowRight className="ml-2 h-4 w-4" />
+            </a>
           </div>
         </div>
       </section>
