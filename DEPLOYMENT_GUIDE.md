@@ -2,12 +2,14 @@
 
 ## GitHub Pages Deployment Steps
 
-### 1. Create GitHub Repository
+### 1. Create GitHub Repository for Root Domain
+
+**For the cleanest URL (`https://santhanakrishnanstark.github.io/`):**
 
 1. **Go to GitHub.com** and sign in to your account
 2. **Click "New Repository"** (green button)
 3. **Repository Settings:**
-   - Repository name: `portfolio` (for cleaner URL)
+   - Repository name: `santhanakrishnanstark.github.io` (MUST match your username)
    - Description: `My professional portfolio website`
    - Set to **Public** (required for free GitHub Pages)
    - ✅ Add a README file
@@ -20,8 +22,10 @@ If you already created `portfolio-project`, rename it:
 1. **Go to your repository** on GitHub
 2. **Settings** tab
 3. **Scroll down to "Repository name"**
-4. **Change from** `portfolio-project` **to** `portfolio`
+4. **Change from** `portfolio-project` **to** `santhanakrishnanstark.github.io`
 5. **Click "Rename"**
+
+**⚠️ Important:** The repository name MUST be exactly `santhanakrishnanstark.github.io` for the root domain to work.
 
 ### 2. Upload Your Portfolio Code
 
@@ -79,10 +83,10 @@ If you get a 403 permission error:
 
 After deployment (takes 2-5 minutes), your portfolio will be available at:
 ```
-https://YOUR_USERNAME.github.io/portfolio/
+https://santhanakrishnanstark.github.io/
 ```
 
-**Example:** `https://santhanakrishnanstark.github.io/portfolio/`
+**🎉 Clean, Professional URL - No subdirectories needed!**
 
 ## 🔧 Local Testing Before Deployment
 

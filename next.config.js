@@ -8,10 +8,9 @@ const nextConfig = {
     loader: 'custom',
     loaderFile: './imageLoader.js'
   },
-  assetPrefix: isProd ? '/portfolio' : '',
-  basePath: isProd ? '/portfolio' : '',
+  // No basePath or assetPrefix for root domain deployment
   env: {
-    NEXT_PUBLIC_BASE_PATH: isProd ? '/portfolio' : '',
+    NEXT_PUBLIC_BASE_PATH: '',
   },
   // Performance optimizations (production only)
   ...(isProd && {
