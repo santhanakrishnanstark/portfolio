@@ -8,7 +8,7 @@
     "bio": "Passionate frontend developer with expertise in Vue js, React, Next.js, and modern web technologies. I love creating beautiful, responsive, and user-friendly web applications.",
     "avatar": "/images/projects/SandyPic.JPG",
     "avatar2": "/images/projects/SandyAboutPic.JPG",
-    "resume": "/resume.pdf",
+    "resume": "/santhanakrishnan_resume.pdf",
     "social": {
       "github": "https://github.com/santhanakrishnanstark/",
       "linkedin": "https://www.linkedin.com/in/santhanakrishnan96/"
@@ -16,116 +16,142 @@
   },
   "projects": [
     {
-      "id": "ecommerce-platform",
-      "title": "E-commerce Platform",
-      "description": "A full-featured e-commerce platform built with React and Node.js, featuring user authentication, payment processing, and admin dashboard.",
-      "longDescription": "This comprehensive e-commerce solution includes features like product catalog, shopping cart, user authentication, payment integration with Stripe, order management, and an admin dashboard for inventory management.",
-      "technologies": ["React", "Node.js", "MongoDB", "Express", "Stripe", "JWT"],
-      "githubUrl": "https://github.com/yourusername/ecommerce-platform",
-      "liveUrl": "https://ecommerce-demo.vercel.app",
-      "image": "/images/projects/ecommerce.jpg",
-      "featured": true,
-      "status": "completed",
-      "date": "2024-03-15",
-      "category": "Full Stack"
-    },
-    {
-      "id": "task-management-app",
-      "title": "Task Management App",
-      "description": "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
-      "longDescription": "Built with React and Firebase, this app allows teams to create projects, assign tasks, track progress, and collaborate in real-time. Features include drag-and-drop task boards, file attachments, comments, and notifications.",
-      "technologies": ["React", "Firebase", "Material-UI", "React DnD"],
-      "githubUrl": "https://github.com/yourusername/task-manager",
-      "liveUrl": "https://task-manager-demo.vercel.app",
-      "image": "/images/projects/task-manager.jpg",
-      "featured": true,
-      "status": "completed",
-      "date": "2024-01-20",
-      "category": "Frontend"
-    },
-    {
-      "id": "weather-dashboard",
-      "title": "Weather Dashboard",
-      "description": "A responsive weather dashboard that displays current weather conditions and forecasts for multiple cities with beautiful visualizations.",
-      "longDescription": "This weather application uses the OpenWeatherMap API to fetch real-time weather data and displays it with interactive charts and maps. Features include location-based weather, 7-day forecasts, and weather alerts.",
-      "technologies": ["React", "Chart.js", "OpenWeatherMap API", "Tailwind CSS"],
-      "githubUrl": "https://github.com/yourusername/weather-dashboard",
-      "liveUrl": "https://weather-dashboard-demo.vercel.app",
-      "image": "/images/projects/weather.jpg",
+      "id": "mealmaker",
+      "title": "mealmaker",
+      "description": "Find a delicious meal to prepare at home with TheMealDB API and a better UI which make you happy and keep you to cook ;)",
+      "longDescription": "A user interface for TheMealDB API designed to help users find delicious meals to prepare at home. The project focuses on providing a better UI to enhance the cooking experience.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "githubUrl": "https://github.com/santhanakrishnanstark/mealmaker",
+      "liveUrl": "https://santhanakrishnanstark.github.io/mealmaker/",
+      "image": "/images/projects/mealmaker.jpg",
       "featured": false,
       "status": "completed",
-      "date": "2023-11-10",
-      "category": "Frontend"
+      "date": "2021-07-10",
+      "category": "Front End"
+    },
+    {
+      "id": "ats-kanban-board",
+      "title": "ATS Kanban Board",
+      "description": "An Applicant Tracking System (ATS) using a Kanban board to manage the interview process and track candidate pipelines.",
+      "longDescription": "This project is a specialized Applicant Tracking System (ATS) designed to streamline the hiring workflow. It uses an interactive Kanban board interface where each card represents a candidate, allowing recruiters and hiring managers to visually track applicants through various stages of the interview process, such as 'Applied', 'Screening', 'Interview', and 'Hired'. Built with React, this tool provides a clear and organized way to manage candidate pipelines.",
+      "technologies": ["React", "JavaScript", "HTML", "CSS"],
+      "githubUrl": "https://github.com/santhanakrishnanstark/ats-kanban-board",
+      "liveUrl": "https://sandykanbanboard.netlify.app/",
+      "image": "/images/projects/kanban.jpg",
+      "featured": false,
+      "status": "completed",
+      "date": "2022-02-11",
+      "category": "Front End"
+    },
+    {
+      "id": "json-visualizer",
+      "title": "JSON Visualizer",
+      "description": "A user-friendly and interactive tool for visualizing and exploring JSON data in a structured, human-readable format.",
+      "longDescription": "The JSON Visualizer is a web-based tool that allows users to paste their JSON data and instantly view it in an organized, human-readable structure. This project was bootstrapped with create-next-app and is built with Next.js . The application provides a user-friendly interface to make exploring and understanding JSON data easier and more intuitive.",
+      "technologies": ["Next.js", "TypeScript", "HTML", "CSS", "JavaScript"],
+      "githubUrl": "https://github.com/santhanakrishnanstark/JSON-Visualizer",
+      "liveUrl": "https://tools.thedailyfrontend.com/tools/json-visualizer/",
+      "image": "/images/projects/json-visualizer.jpg",
+      "featured": true,
+      "status": "completed",
+      "date": "2023-11-12",
+      "category": "Front End"
+    },
+    {
+      "id": "yourag",
+      "title": "YouRAG - YouTube RAG Assistant",
+      "description": "An AI-powered tool that transcribes a YouTube video and allows natural language querying through a Retrieval-Augmented Generation (RAG) pipeline.",
+      "longDescription": "YouRAG is an AI-powered assistant that takes a YouTube video URL, automatically transcribes its audio, and allows users to ask questions about the content. It uses a Retrieval-Augmented Generation (RAG) pipeline with FAISS vector search to provide quick, context-aware answers from long-form video content. Users can ask for summaries, key points, or definitions, and the tool will generate a response based on the video's transcript.",
+      "technologies": ["Python", "Streamlit", "Langchain", "Hugging Face", "FAISS"],
+      "githubUrl": "https://github.com/santhanakrishnanstark/YouRAG",
+      "liveUrl": null,
+      "image": "/images/projects/yourag.jpg",
+      "featured": true,
+      "status": "completed",
+      "date": "2025-05-02",
+      "category": "AI/ML"
+    },
+    {
+      "id": "clipboard-manager",
+      "title": "Clipboard Manager Chrome Extension",
+      "description": "A powerful, elegant clipboard manager Chrome extension with a macOS-style design that captures and manages all your copied text with advanced features.",
+      "longDescription": "This project is a powerful clipboard manager designed as a Chrome extension. It features a clean, macOS-style interface and automatically captures all copied text. Its core functionalities include maintaining a clipboard history, one-click copy, and duplicate prevention. It also offers advanced features like search, pinning important items, snippets management, data import/export (CSV/JSON), dark/light mode, and privacy controls to exclude sensitive sites. The extension is built with modern JavaScript and Manifest V3 for enhanced security and performance.",
+      "technologies": ["JavaScript", "HTML", "CSS", "Manifest V3", "Chrome Storage API"],
+      "githubUrl": "https://github.com/santhanakrishnanstark/clipboard-manager",
+      "liveUrl": "https://santhanakrishnanstark.github.io/clipboard-manager/",
+      "image": "/images/projects/clipboard-manager.jpg",
+      "featured": true,
+      "status": "in-progress",
+      "date": "2025-09-30",
+      "category": "Browser Extension"
     }
   ],
   "experience": [
     {
-      "id": "frontend-developer-techcorp",
-      "company": "TechCorp Solutions",
-      "position": "Frontend Developer",
-      "location": "Remote",
-      "startDate": "2023-01-01",
+      "id": "specialist-programmer-infosys",
+      "company": "Infosys",
+      "position": "Specialist Programmer",
+      "location": "Bangalore, India",
+      "startDate": "2022-05-01",
       "endDate": null,
       "current": true,
-      "description": "Developing and maintaining responsive web applications using React, Next.js, and TypeScript. Collaborating with design and backend teams to deliver high-quality user experiences.",
+      "description": "Specializing in building high-performance applications that meet WCAG 2.1 accessibility standards. Focused on increasing page load speed, ensuring usability across diverse users, and converting Vue components into reusable web components.",
       "achievements": [
-        "Improved application performance by 40% through code optimization and lazy loading",
-        "Led the migration from JavaScript to TypeScript across 5 major projects",
-        "Implemented automated testing suite reducing bugs by 60%",
-        "Mentored 3 junior developers and conducted code reviews"
+        "Increased page load speed by 40% through optimized asset bundling, lazy loading, and caching strategies.",
+        "Led accessibility audits, ensuring 100% WCAG 2.1 compliance, improving usability across diverse users.",
+        "Spearheaded the conversion of 20+ Vue components into web components, reducing development time by 30% and enhancing UI consistency.",
+        "Implemented Playwright for end-to-end testing, reducing UI defects by 50% and achieving 95% test coverage.",
+        "Migrated frontend applications to Vite, achieving 3x faster build times and enhancing developer productivity."
       ],
-      "technologies": ["React", "Next.js", "TypeScript", "Tailwind CSS", "Jest"]
+      "technologies": ["React.js", "Vue.js", "Web Components", "Vite", "Playwright", "WCAG 2.1"]
     },
     {
-      "id": "junior-developer-webstudio",
-      "company": "WebStudio Agency",
-      "position": "Junior Frontend Developer",
-      "location": "New York, NY",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-31",
+      "id": "frontend-developer-amex-technologies",
+      "company": "Ameex Technologies",
+      "position": "Frontend Developer",
+      "location": "Chennai, India",
+      "startDate": "2019-10-01",
+      "endDate": "2022-05-01",
       "current": false,
-      "description": "Worked on client projects building responsive websites and web applications. Gained experience in modern frontend technologies and agile development practices.",
+      "description": "Developed enterprise applications with a focus on responsive, accessible, and pixel-perfect UI/UX. Translated UI/UX designs into fully functional web applications and optimized frontend performance.",
       "achievements": [
-        "Successfully delivered 8 client projects on time and within budget",
-        "Improved website loading speeds by 25% through image optimization",
-        "Collaborated with designers to implement pixel-perfect UI components",
-        "Participated in daily standups and sprint planning meetings"
+        "Developed 30+ enterprise applications, ensuring responsive, accessible, and pixel-perfect UI/UX.",
+        "Translated 100+ UI/UX designs into fully functional web applications.",
+        "Optimized frontend performance, reducing initial load times by 25% through efficient asset management [3, 4]."
       ],
-      "technologies": ["HTML5", "CSS3", "JavaScript", "React", "SASS", "Git"]
-    },
-    {
-      "id": "intern-developer-startup",
-      "company": "StartupXYZ",
-      "position": "Frontend Development Intern",
-      "location": "San Francisco, CA",
-      "startDate": "2022-01-01",
-      "endDate": "2022-05-31",
-      "current": false,
-      "description": "Assisted in developing the company's main product interface. Learned modern development practices and contributed to feature development under senior developer guidance.",
-      "achievements": [
-        "Built 5 reusable React components used across the application",
-        "Fixed 20+ UI bugs and improved user experience",
-        "Participated in user testing sessions and implemented feedback",
-        "Learned Git workflow and collaborative development practices"
-      ],
-      "technologies": ["React", "JavaScript", "CSS3", "Git", "Figma"]
+      "technologies": ["JavaScript (ES6+)", "HTML", "CSS", "React.js", "Vue.js"]
     }
   ],
   "education": [
     {
-      "id": "computer-science-degree",
-      "institution": "University of Technology",
-      "degree": "Bachelor of Science",
-      "field": "Computer Science",
-      "location": "Your City, Country",
-      "startDate": "2018-09-01",
-      "endDate": "2022-06-01",
-      "gpa": "3.8/4.0",
-      "honors": ["Magna Cum Laude", "Dean's List"],
-      "relevantCourses": ["Data Structures", "Algorithms", "Web Development", "Database Systems", "Software Engineering"],
-      "description": "Comprehensive computer science education with focus on software development and modern web technologies.",
-      "logo": "portfolio/images/education/university.png",
-      "website": "https://university.edu"
+      "id": "master-computer-applications-madras-university",
+      "institution": "Madras University",
+      "degree": "Master of Computer Applications (MCA)",
+      "field": "Computer Applications",
+      "location": null,
+      "startDate": null,
+      "endDate": "2019-05-01",
+      "gpa": null,
+      "honors": [],
+      "relevantCourses": [],
+      "description": "Completed a Master of Computer Applications degree from Madras University.",
+      "logo": null,
+      "website": null
+    },
+    {
+      "id": "bachelor-computer-applications-thiruvalluvar-university",
+      "institution": "Thiruvalluvar University",
+      "degree": "Bachelor of Computer Applications (BCA)",
+      "field": "Computer Applications",
+      "location": null,
+      "startDate": null,
+      "endDate": "2017-05-01",
+      "gpa": null,
+      "honors": [],
+      "relevantCourses": [],
+      "description": "Completed a Bachelor of Computer Applications degree from Thiruvalluvar University.",
+      "logo": null,
+      "website": null
     }
   ],
   "testimonials": [
@@ -172,89 +198,104 @@
   "languages": {
     "spoken": [
       {
-        "name": "English",
+        "name": "Tamil",
         "proficiency": "Native",
-        "level": "C2",
-        "flag": "portfolio/images/flags/us.png"
+        "level": "",
+        "flag": null
       },
       {
-        "name": "Spanish",
-        "proficiency": "Conversational",
-        "level": "B2",
-        "flag": "portfolio/images/flags/es.png"
-      },
-      {
-        "name": "French",
-        "proficiency": "Basic",
-        "level": "A2",
-        "flag": "portfolio/images/flags/fr.png"
+        "name": "English",
+        "proficiency": "Conversation Basic",
+        "level": "",
+        "flag": null
       }
     ]
   },
   "stats": {
-    "yearsOfExperience": 3,
-    "projectsCompleted": 15,
-    "clientsSatisfied": 8,
-    "cupsOfCoffee": 500,
-    "linesOfCode": 25000,
-    "githubContributions": 800,
-    "certifications": 3,
-    "coursesCompleted": 12
+    "yearsOfExperience": 5,
+    "projectsCompleted": 36,
+    "clientsSatisfied": null,
+    "cupsOfCoffee": null,
+    "linesOfCode": null,
+    "githubContributions": null,
+    "certifications": 5,
+    "coursesCompleted": null
   },
   "skills": {
     "frontend": [
       {
-        "name": "React",
-        "years": 3,
+        "name": "React.js",
+        "years": 5,
         "iconType": "devicon",
         "icon": "devicon-react-original",
         "color": "#61DAFB"
       },
       {
         "name": "Next.js",
-        "years": 2,
+        "years": 5,
         "iconType": "devicon",
         "icon": "devicon-nextjs-original",
         "color": "#000000"
       },
       {
-        "name": "TypeScript",
-        "years": 2,
+        "name": "Vue.js",
+        "years": 5,
         "iconType": "devicon",
-        "icon": "devicon-typescript-original",
-        "color": "#3178C6"
+        "icon": "devicon-vuejs-plain",
+        "color": "#4FC08D"
       },
       {
         "name": "JavaScript",
-        "years": 4,
+        "years": 5,
         "iconType": "devicon",
-        "icon": "devicon-javascript-plain colored",
+        "icon": "devicon-javascript-plain",
         "color": "#F7DF1E"
       },
       {
-        "name": "HTML5",
+        "name": "TypeScript",
+        "years": 3,
+        "iconType": "devicon",
+        "icon": "devicon-typescript-plain",
+        "color": "#3178C6"
+      },
+      {
+        "name": "HTML",
         "years": 5,
         "iconType": "devicon",
-        "icon": "devicon-html5-plain colored",
+        "icon": "devicon-html5-plain",
         "color": "#E34F26"
       },
       {
-        "name": "CSS3",
+        "name": "CSS",
         "years": 5,
         "iconType": "devicon",
-        "icon": "devicon-css3-original",
+        "icon": "devicon-css3-plain",
         "color": "#1572B6"
       },
       {
         "name": "Tailwind CSS",
-        "years": 2,
+        "years": 3,
         "iconType": "devicon",
-        "icon": "devicon-tailwindcss-original",
+        "icon": "devicon-tailwindcss-plain",
         "color": "#06B6D4"
       },
       {
-        "name": "SASS/SCSS",
-        "years": 3,
+        "name": "Material-UI",
+        "years": 4,
+        "iconType": "devicon",
+        "icon": "devicon-materialui-plain",
+        "color": "#007FFF"
+      },
+      {
+        "name": "Redux",
+        "years": 4,
+        "iconType": "devicon",
+        "icon": "devicon-redux-original",
+        "color": "#764ABC"
+      },
+      {
+        "name": "SCSS",
+        "years": 5,
         "iconType": "devicon",
         "icon": "devicon-sass-original",
         "color": "#CC6699"
@@ -263,229 +304,320 @@
     "backend": [
       {
         "name": "Node.js",
-        "years": 2,
+        "years": 3,
         "iconType": "devicon",
-        "icon": "devicon-nodejs-original",
+        "icon": "devicon-nodejs-plain",
         "color": "#339933"
       },
       {
-        "name": "Express.js",
-        "years": 2,
-        "iconType": "devicon",
-        "icon": "devicon-express-original",
-        "color": "#000000"
-      },
-      {
-        "name": "MongoDB",
-        "years": 1,
-        "iconType": "devicon",
-        "icon": "devicon-mongodb-original",
-        "color": "#47A248"
-      },
-      {
         "name": "Firebase",
+        "years": 3,
+        "iconType": "devicon",
+        "icon": "devicon-firebase-plain",
+        "color": "#FFCA28"
+      },
+      {
+        "name": "Python",
         "years": 2,
         "iconType": "devicon",
-        "icon": "devicon-firebase-original",
-        "color": "#FFCA28"
+        "icon": "devicon-python-plain",
+        "color": "#3776AB"
       }
     ],
     "tools": [
       {
         "name": "Git",
-        "years": 4,
+        "years": 5,
         "iconType": "devicon",
-        "icon": "devicon-git-original",
+        "icon": "devicon-git-plain",
         "color": "#F05032"
       },
       {
-        "name": "VS Code",
-        "years": 5,
+        "name": "Vite",
+        "years": 2,
         "iconType": "devicon",
-        "icon": "devicon-vscode-original",
-        "color": "#007ACC"
+        "icon": "devicon-vitejs-plain",
+        "color": "#646CFF"
+      },
+      {
+        "name": "Webpack",
+        "years": 4,
+        "iconType": "devicon",
+        "icon": "devicon-webpack-plain",
+        "color": "#8DD6F9"
+      },
+      {
+        "name": "Playwright",
+        "years": 2,
+        "iconType": "devicon",
+        "icon": "devicon-playwright-plain",
+        "color": "#2EAD33"
+      },
+      {
+        "name": "Cypress",
+        "years": 2,
+        "iconType": "devicon",
+        "icon": "devicon-cypressio-plain",
+        "color": "#17202C"
+      },
+      {
+        "name": "Jest",
+        "years": 3,
+        "iconType": "devicon",
+        "icon": "devicon-jest-plain",
+        "color": "#C21325"
       },
       {
         "name": "Figma",
-        "years": 3,
+        "years": 4,
         "iconType": "devicon",
-        "icon": "devicon-figma-original",
+        "icon": "devicon-figma-plain",
         "color": "#F24E1E"
       },
       {
-        "name": "Docker",
-        "years": 1,
+        "name": "Vercel",
+        "years": 3,
         "iconType": "devicon",
-        "icon": "devicon-docker-original",
-        "color": "#2496ED"
+        "icon": "devicon-vercel-original",
+        "color": "#000000"
       },
       {
-        "name": "Custom Tool",
+        "name": "Netlify",
+        "years": 3,
+        "iconType": "devicon",
+        "icon": "devicon-netlify-plain",
+        "color": "#00C7B7"
+      },
+      {
+        "name": "GitHub Actions",
         "years": 2,
-        "iconType": "svg",
-        "icon": "/icons/skills/custom-tool.svg",
-        "color": "#8DD6F9"
+        "iconType": "devicon",
+        "icon": "devicon-githubactions-plain",
+        "color": "#2088FF"
       }
     ]
   },
   "blog": [
     {
-      "id": "react-performance-tips",
-      "title": "10 React Performance Optimization Tips",
-      "excerpt": "Learn how to optimize your React applications for better performance and user experience.",
-      "date": "2024-09-15",
-      "readTime": "8 min read",
-      "tags": ["React", "Performance", "Optimization"],
-      "externalUrl": "https://medium.com/@yourusername/react-performance-tips",
-      "featured": true
-    },
-    {
-      "id": "nextjs-deployment-guide",
-      "title": "Complete Guide to Next.js Deployment",
-      "excerpt": "Step-by-step guide to deploying Next.js applications to various platforms including Vercel, Netlify, and AWS.",
-      "date": "2024-08-22",
-      "readTime": "12 min read",
-      "tags": ["Next.js", "Deployment", "DevOps"],
-      "externalUrl": "https://dev.to/yourusername/nextjs-deployment-guide",
-      "featured": true
-    },
-    {
-      "id": "css-grid-flexbox",
-      "title": "CSS Grid vs Flexbox: When to Use What",
-      "excerpt": "Understanding the differences between CSS Grid and Flexbox and when to use each layout method.",
-      "date": "2024-07-10",
+      "id": "ai-driven-refactoring-legacy-js-to-es6",
+      "title": "AI-Driven Refactoring: Converting Legacy JavaScript to Modern ES6+ Code",
+      "excerpt": "Learn how AI-powered tools can refactor legacy JavaScript into cleaner, safer, and more efficient ES6+ style, with examples for var, arrow functions, and async/await.",
+      "date": "2025-09-29",
       "readTime": "6 min read",
-      "tags": ["CSS", "Layout", "Grid", "Flexbox"],
-      "externalUrl": "https://css-tricks.com/yourusername/grid-vs-flexbox",
-      "featured": false
+      "tags": ["AI", "JavaScript", "ES6", "Refactoring", "Web Development"],
+      "externalUrl": "https://thedailyfrontend.com/ai-driven-refactoring-converting-legacy-javascript-to-modern-es6-code/",
+      "featured": true
+    },
+    {
+      "id": "how-to-run-ai-models-locally",
+      "title": "How to Run AI Models on Your Local System",
+      "excerpt": "A step-by-step guide on using Ollama to run large language models (LLMs) locally, eliminating cloud costs while ensuring privacy and performance.",
+      "date": "2024-12-11",
+      "readTime": "7 min read",
+      "tags": ["AI", "Ollama", "LLM", "Local Development", "DevTools"],
+      "externalUrl": "https://thedailyfrontend.com/how-to-run-ai-models-on-your-local-system/",
+      "featured": true
+    },
+    {
+      "id": "the-daily-frontend-tools",
+      "title": "The Daily Frontend Tools – A Free Developer Toolkit",
+      "excerpt": "Introducing a free, fast, and privacy-first web app with essential tools like a JSON Visualizer and Color Converter, built for developers with zero tracking.",
+      "date": "2025-02-10",
+      "readTime": "5 min read",
+      "tags": ["DevTools", "Frontend", "Productivity", "JSON", "Open Source"],
+      "externalUrl": "https://thedailyfrontend.com/the-daily-frontend-tools-a-free-developer-toolkit/",
+      "featured": true
     }
   ],
   "courses": [
     {
-      "id": "react-complete-guide",
-      "title": "React - The Complete Guide",
-      "provider": "Udemy",
-      "instructor": "Maximilian Schwarzmüller",
-      "completionDate": "2023-08-15",
-      "duration": "48 hours",
-      "certificateUrl": "https://udemy.com/certificate/UC-example123",
-      "skills": ["React", "Redux", "React Router", "Hooks"],
-      "description": "Comprehensive course covering React fundamentals, advanced patterns, state management, and modern React development practices.",
+      "id": "infosys-react-professional",
+      "title": "Infosys Certified React Professional",
+      "provider": "Infosys",
+      "instructor": "Infosys",
+      "completionDate": null,
+      "duration": null,
+      "certificateUrl": null,
+      "skills": ["React"],
+      "description": "Certification program validating professional-level skills in React.js development.",
       "featured": true,
       "category": "Frontend Development"
     },
     {
-      "id": "nextjs-masterclass",
-      "title": "Next.js & React - The Complete Guide",
-      "provider": "Udemy",
-      "instructor": "Maximilian Schwarzmüller",
-      "completionDate": "2023-11-20",
-      "duration": "32 hours",
-      "certificateUrl": "https://udemy.com/certificate/UC-example456",
-      "skills": ["Next.js", "SSR", "SSG", "API Routes"],
-      "description": "Master Next.js framework including server-side rendering, static site generation, and full-stack development.",
+      "id": "infosys-frontend-developer",
+      "title": "Infosys Certified Front End Web Developer",
+      "provider": "Infosys",
+      "instructor": "Infosys",
+      "completionDate": null,
+      "duration": null,
+      "certificateUrl": null,
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "description": "Certification for frontend web development, covering core technologies and best practices.",
       "featured": true,
-      "category": "Full Stack Development"
+      "category": "Frontend Development"
     },
     {
-      "id": "typescript-bootcamp",
-      "title": "TypeScript Bootcamp",
-      "provider": "Coursera",
-      "instructor": "Google",
-      "completionDate": "2023-05-10",
-      "duration": "24 hours",
-      "certificateUrl": "https://coursera.org/certificate/example789",
-      "skills": ["TypeScript", "Type Safety", "Interfaces", "Generics"],
-      "description": "Learn TypeScript from basics to advanced concepts including type safety, interfaces, and integration with React.",
+      "id": "fcc-responsive-web-design",
+      "title": "Responsive Web Design",
+      "provider": "FreeCodeCamp",
+      "instructor": "FreeCodeCamp",
+      "completionDate": null,
+      "duration": null,
+      "certificateUrl": null,
+      "skills": ["HTML", "CSS", "Responsive Design", "Flexbox", "Grid"],
+      "description": "Certification covering the fundamentals of creating web pages that look good on all devices (desktops, tablets, and phones).",
+      "featured": false,
+      "category": "Web Design"
+    },
+    {
+      "id": "fcc-js-algorithms-data-structures",
+      "title": "JavaScript Algorithms and Data Structures",
+      "provider": "FreeCodeCamp",
+      "instructor": "FreeCodeCamp",
+      "completionDate": null,
+      "duration": null,
+      "certificateUrl": null,
+      "skills": ["JavaScript", "ES6", "Algorithms", "Data Structures", "Object-Oriented Programming", "Functional Programming"],
+      "description": "Certification focused on fundamental JavaScript, including variables, arrays, objects, loops, and functions, as well as intermediate algorithm scripting.",
       "featured": false,
       "category": "Programming Languages"
+    },
+    {
+      "id": "fcc-frontend-libraries",
+      "title": "Front End Libraries",
+      "provider": "FreeCodeCamp",
+      "instructor": "FreeCodeCamp",
+      "completionDate": null,
+      "duration": null,
+      "certificateUrl": null,
+      "skills": ["React", "Redux", "Bootstrap", "jQuery", "Sass"],
+      "description": "Certification for building complex JavaScript applications with popular frontend libraries like React and Redux.",
+      "featured": false,
+      "category": "Frontend Development"
     }
   ],
   "certifications": [
     {
-      "id": "aws-cloud-practitioner",
-      "title": "AWS Certified Cloud Practitioner",
-      "issuer": "Amazon Web Services",
-      "issueDate": "2024-02-15",
-      "expiryDate": "2027-02-15",
-      "credentialId": "AWS-CCP-123456789",
-      "credentialUrl": "https://aws.amazon.com/verification/example",
-      "skills": ["AWS", "Cloud Computing", "EC2", "S3", "Lambda"],
-      "description": "Foundational certification demonstrating understanding of AWS cloud services and basic architectural principles.",
-      "featured": true,
-      "category": "Cloud Computing"
-    },
-    {
-      "id": "google-analytics-certified",
-      "title": "Google Analytics Certified",
-      "issuer": "Google",
-      "issueDate": "2023-12-01",
-      "expiryDate": "2024-12-01",
-      "credentialId": "GA-CERT-987654321",
-      "credentialUrl": "https://skillshop.exceedlms.com/student/award/example",
-      "skills": ["Google Analytics", "Web Analytics", "Data Analysis", "Reporting"],
-      "description": "Certification in Google Analytics demonstrating proficiency in web analytics and data-driven decision making.",
-      "featured": true,
-      "category": "Analytics"
-    },
-    {
-      "id": "responsive-web-design",
-      "title": "Responsive Web Design Certification",
-      "issuer": "freeCodeCamp",
-      "issueDate": "2022-09-30",
+      "id": "infosys-react-professional",
+      "title": "Infosys Certified React Professional",
+      "issuer": "Infosys",
+      "issueDate": null,
       "expiryDate": null,
-      "credentialId": "FCC-RWD-456789123",
-      "credentialUrl": "https://freecodecamp.org/certification/example/responsive-web-design",
-      "skills": ["HTML5", "CSS3", "Responsive Design", "Accessibility"],
-      "description": "Comprehensive certification covering HTML, CSS, responsive design principles, and web accessibility standards.",
+      "credentialId": null,
+      "credentialUrl": null,
+      "skills": ["React"],
+      "description": "Certification program validating professional-level skills in React.js development.",
+      "featured": true,
+      "category": "Frontend Development"
+    },
+    {
+      "id": "infosys-frontend-developer",
+      "title": "Infosys Certified Front End Web Developer",
+      "issuer": "Infosys",
+      "issueDate": null,
+      "expiryDate": null,
+      "credentialId": null,
+      "credentialUrl": null,
+      "skills": ["HTML", "CSS", "JavaScript"],
+      "description": "Certification for frontend web development, covering core technologies and best practices.",
+      "featured": true,
+      "category": "Frontend Development"
+    },
+    {
+      "id": "fcc-responsive-web-design",
+      "title": "Responsive Web Design",
+      "issuer": "FreeCodeCamp",
+      "issueDate": null,
+      "expiryDate": null,
+      "credentialId": null,
+      "credentialUrl": null,
+      "skills": ["HTML", "CSS", "Responsive Design", "Flexbox", "Grid"],
+      "description": "Certification covering the fundamentals of creating web pages that look good on all devices (desktops, tablets, and phones).",
       "featured": false,
       "category": "Web Development"
+    },
+    {
+      "id": "fcc-js-algorithms-data-structures",
+      "title": "JavaScript Algorithms and Data Structures",
+      "issuer": "FreeCodeCamp",
+      "issueDate": null,
+      "expiryDate": null,
+      "credentialId": null,
+      "credentialUrl": null,
+      "skills": ["JavaScript", "ES6", "Algorithms", "Data Structures", "Object-Oriented Programming", "Functional Programming"],
+      "description": "Certification focused on fundamental JavaScript, including variables, arrays, objects, loops, and functions, as well as intermediate algorithm scripting.",
+      "featured": false,
+      "category": "Programming Languages"
+    },
+    {
+      "id": "fcc-frontend-libraries",
+      "title": "Front End Libraries",
+      "issuer": "FreeCodeCamp",
+      "issueDate": null,
+      "expiryDate": null,
+      "credentialId": null,
+      "credentialUrl": null,
+      "skills": ["React", "Redux", "Bootstrap", "jQuery", "Sass"],
+      "description": "Certification for building complex JavaScript applications with popular frontend libraries like React and Redux.",
+      "featured": false,
+      "category": "Frontend Development"
     }
   ],
   "achievements": [
     {
-      "id": "hackathon-winner-2024",
-      "title": "First Place - TechCorp Hackathon 2024",
-      "organization": "TechCorp Solutions",
-      "date": "2024-06-15",
-      "description": "Won first place in company-wide hackathon with an innovative AI-powered task management solution built in 48 hours.",
+      "id": "stg-makeathon-17-2024",
+      "title": "Finalist - STG Makeathon: Edition 17",
+      "organization": "Infosys (STG)",
+      "date": "2024",
+      "description": "Developed an AI-powered allergen detection PWA that reached the final round.",
+      "category": "Hackathon",
+      "skills": ["Next.js", "TensorFlow", "AI/ML"],
+      "recognition": "Reached the final round",
+      "featured": true
+    },
+    {
+      "id": "hackerearth-incode-2023",
+      "title": "Shortlisted Idea - HackerEarth's InCode",
+      "organization": "HackerEarth",
+      "date": "2023",
+      "description": "Idea was shortlisted and a working prototype was completed for the competition.",
       "category": "Competition",
-      "skills": ["React", "AI/ML", "Node.js", "Team Leadership"],
-      "recognition": "Company-wide recognition and $5,000 prize",
+      "skills": [],
+      "recognition": "Shortlisted idea and completed a working prototype",
       "featured": true
     },
     {
-      "id": "open-source-contributor",
-      "title": "Top Contributor - React Documentation",
-      "organization": "React Team",
-      "date": "2023-12-01",
-      "description": "Recognized as a top contributor to React documentation with 50+ merged pull requests improving developer experience.",
-      "category": "Open Source",
-      "skills": ["React", "Technical Writing", "Documentation", "Community"],
-      "recognition": "Featured in React newsletter and community spotlight",
-      "featured": true
-    },
-    {
-      "id": "performance-optimization",
-      "title": "Performance Champion Award",
-      "organization": "TechCorp Solutions",
-      "date": "2024-03-20",
-      "description": "Achieved 40% performance improvement across multiple applications through code optimization and best practices implementation.",
-      "category": "Professional",
-      "skills": ["Performance Optimization", "Code Review", "Mentoring"],
-      "recognition": "Quarterly performance bonus and team recognition",
+      "id": "outstanding-performance-award",
+      "title": "Outstanding Performance Award",
+      "organization": "Infosys",
+      "date": null,
+      "description": "Awarded for significant technical contributions.",
+      "category": "Award",
+      "skills": [],
+      "recognition": "Awarded for Outstanding Performance",
       "featured": false
     },
     {
-      "id": "conference-speaker",
-      "title": "Speaker - React Conference 2024",
-      "organization": "React Conference",
-      "date": "2024-05-10",
-      "description": "Delivered a talk on 'Modern React Patterns and Performance Optimization' to an audience of 500+ developers.",
-      "category": "Speaking",
-      "skills": ["Public Speaking", "React", "Performance", "Knowledge Sharing"],
-      "recognition": "Positive feedback from 95% of attendees",
-      "featured": true
+      "id": "client-recognition",
+      "title": "High Client Recognition",
+      "organization": "Infosys",
+      "date": null,
+      "description": "Earned high client recognition for innovation and problem-solving.",
+      "category": "Recognition",
+      "skills": ["Innovation", "Problem-Solving"],
+      "recognition": "High client appreciation for innovation",
+      "featured": false
+    },
+    {
+      "id": "stg-makeathon-15-2023",
+      "title": "Participant - STG Makeathon: Edition 15",
+      "organization": "Infosys (STG)",
+      "date": "2023",
+      "description": "Participated and contributed innovative solutions to the hackathon.",
+      "category": "Hackathon",
+      "skills": [],
+      "recognition": "Participation and contribution of innovative solutions",
+      "featured": false
     }
   ],
   "preferences": {

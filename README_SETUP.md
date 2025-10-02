@@ -44,7 +44,7 @@ Edit `data/portfolio.json` and replace the placeholder data with your actual inf
 ## 📁 Step 2: Add Your Assets
 
 ### Resume
-Replace `public/resume.pdf` with your actual resume file.
+Replace `public/santhanakrishnan_resume.pdf` with your actual resume file.
 
 ### Project Images
 Add project screenshots to `public/images/projects/`:

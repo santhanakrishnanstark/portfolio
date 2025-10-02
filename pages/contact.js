@@ -92,12 +92,6 @@ export default function Contact() {
       icon: FaLinkedin,
       color: 'hover:text-blue-600'
     },
-    {
-      name: 'Twitter',
-      href: personal.social.twitter,
-      icon: FaTwitter,
-      color: 'hover:text-blue-400'
-    }
   ]
 
   return (

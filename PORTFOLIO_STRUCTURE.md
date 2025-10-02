@@ -14,7 +14,7 @@ This is the complete JSON structure that supports all possible content types you
     "location": "Your City, Country",
     "bio": "Your professional bio...",
     "avatar": "/images/avatar.jpg",
-    "resume": "/resume.pdf",
+    "resume": "/santhanakrishnan_resume.pdf",
     "social": {
       "github": "https://github.com/yourusername",
       "linkedin": "https://linkedin.com/in/yourusername",

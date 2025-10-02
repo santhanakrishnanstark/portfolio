@@ -302,14 +302,17 @@ export default function Blog() {
               Get notified when I publish new articles about web development, 
               technology trends, and programming insights.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row gap-4 justify-center max-w-lg mx-auto">
               <a
                 href={`mailto:${personal.email}?subject=Blog Updates Subscription`}
-                className="bg-white text-primary-600 hover:bg-gray-100 font-medium py-3 px-6 rounded-lg transition-colors duration-200"
+                className="bg-white text-primary-600 hover:bg-gray-100 font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 inline-flex items-center justify-center whitespace-nowrap"
               >
                 Subscribe to Updates
               </a>
-              <Link href="/contact" className="border border-white text-white hover:bg-white hover:text-primary-600 font-medium py-3 px-6 rounded-lg transition-colors duration-200">
+              <Link
+                href="/contact"
+                className="border-2 border-white text-white hover:bg-white hover:text-primary-600 font-semibold py-4 px-8 rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-300 inline-flex items-center justify-center whitespace-nowrap"
+              >
                 Get In Touch
                 <HiArrowRight className="ml-2 h-4 w-4" />
               </Link>

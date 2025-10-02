@@ -64,7 +64,7 @@ export default function Header() {
             
             {/* Resume Download */}
             <a
-              href="/resume.pdf"
+              href="/santhanakrishnan_resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm"
@@ -106,7 +106,7 @@ export default function Header() {
               ))}
               
               <a
-                href="/resume.pdf"
+                href="/santhanakrishnan_resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-sm w-fit"
