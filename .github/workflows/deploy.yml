@@ -35,6 +35,8 @@ jobs:
         run: npm run build
         env:
           NODE_ENV: production
+          NEXT_PUBLIC_GA_MEASUREMENT_ID: ${{ secrets.GA_MEASUREMENT_ID }}
+          NEXT_PUBLIC_GITHUB_USERNAME: santhanakrishnanstark
           
       - name: Add .nojekyll file
         run: touch ./out/.nojekyll

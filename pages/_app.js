@@ -1,11 +1,12 @@
 import '../styles/globals.css'
 import { useEffect } from 'react'
 import { useRouter } from 'next/router'
+import GoogleAnalytics from '../components/GoogleAnalytics'
 
-// Google Analytics tracking function
+// Google Analytics tracking function for route changes
 const pageview = (url) => {
   if (typeof window !== 'undefined' && window.gtag) {
-    window.gtag('config', process.env.NEXT_PUBLIC_GA_ID, {
+    window.gtag('config', process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID, {
       page_path: url,
     })
   }
@@ -26,5 +27,13 @@ export default function App({ Component, pageProps }) {
     }
   }, [router.events])
 
-  return <Component {...pageProps} />
+  return (
+    <>
+      {/* Google Analytics Integration */}
+      <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID} />
+      
+      {/* Main App Component */}
+      <Component {...pageProps} />
+    </>
+  )
 }
